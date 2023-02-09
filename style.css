@@ -7,9 +7,8 @@
 /* header section style */
 .header-section{
     background-image: url('images/donation7.jpg');
-    background-repeat: no-repeat;
     background-position: right;
-    background-size: 100% 680px;
+    background-size: 100% 100%;
     width: 100%;
     height: 500px;
     
@@ -45,6 +44,7 @@
 }.donate-now-btn{
     font-weight: 700;
     text-align: center;
+
     height: 64px;
     width: 180px;
     border: 0;
@@ -60,5 +60,111 @@
 
 }
 /* main section style */
+img{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.donation-type-container{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    width: auto;
+    height: 500px;
+
+
+}.donate-plan-title{
+    font-size: 25px;
+    text-transform :capitalize ;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+    
+    
+}.donate-plan-description{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    justify-content: center;
+ 
+    
+
+
+    
+}.donation-type-content{
+    background-color: rgb(204, 223, 223) ;
+    border-radius: 5px;
+    width: 400px;
+    height: 350px;
+
+}.food-and-family-title{
+    font-weight: 700;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+
+}.food-and-family-description{
+    margin-left: 30px;
+    margin-top: 20px;
+    line-height: 2rem;
+    font-weight: 400;
+    color: #757575;
+    font-size: 18px;
+
+    
+}.how-to-contribute1{
+    display: flex;
+}.how-to-contribute2{
+    display: flex;
+}.contribute-content{
+
+}.contribute-title{
+
+}.ontribute-description{
+
+}.contribute-btn{
+
+}.contribute-picture{
+    
+    
+}
+/* footer style */
+footer{
+    background-color: black;
+    width: auto;
+    height: 100px;
+    color: aliceblue;
+
+}.footer-title{
+    text-align: center;
+}.footer-sub-title{
+    text-align: center;
+}.copyright{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer section style */
