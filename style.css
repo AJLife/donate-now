@@ -2,6 +2,8 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     padding: 0 ;
+    box-sizing:border-box;
+
 
 }
 /* header section style */
@@ -65,7 +67,77 @@ img{
     margin-left: 30px;
     margin-bottom: 20px;
     
+}.donate-option{
+height: 500px;
+width: 700px;
+}hr{
+    width: 690px;
 }
+.donate-option-title{
+    font-size: 30px;
+    text-transform :capitalize ;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 51px;
+
+}.donate-option-description{
+    margin-left: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    
+
+}.donation-option-list{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 50px;
+   
+}
+ ul li{
+    list-style: none;
+    border: 1px gray solid;
+    border-radius: 5px;
+    font-weight: 700px;
+    font-size: 28px;
+    max-height: 120px;
+    max-width: 90px;
+}.list-1{
+    background-color: #dfdddd;
+    color: gray;
+    padding: 15px;
+
+} .list-2{
+    padding: 15px;
+    background-color: #e344448f;
+    border: 2px solid red;
+}.list-3{
+    padding: 15px;
+    background-color: #dfdddd;
+    color: gray;
+}.list-4{
+    padding: 15px;
+    background-color: #dfdddd;
+    color: gray;
+}.list-5{
+    padding: 15px;
+    background-color: #dfdddd;
+    color: gray;
+}
+.donate-option-comment{
+    margin-bottom: 20px;
+    margin-top: 51px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: gray;
+
+
+    
+}
+
 
 .donation-type-container{
     display: flex;
@@ -116,35 +188,120 @@ img{
     
 }.how-to-contribute1{
     display: flex;
+    grid:10px;
 }.how-to-contribute2{
     display: flex;
 }.contribute-content{
-
+    height: 300px;
+    width: 450px;
+    margin: 60px;
+    border-radius: 5px;
 }.contribute-title{
-
-}.ontribute-description{
-
+    margin-bottom: 25px;
+    font-size: 30px;
+    margin-left: 20px;
+}.contribute-description1{
+    margin-left: 20px;
+}
+.contribute-description2{
+    margin-left: 20px;
+    margin-top: 15px;
 }.contribute-btn{
-
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #fe2a2a ;
+    width: 180px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-radius: 2px;
+    padding: 3px;
+    
 }.contribute-picture{
     
+    height: 380px;
+    width: 450px;
+    border-radius: 5px;
+} 
+/* update section */
+#update-section{
+    width: 850px;
+    height: 500px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 5px;
+
+
+}.get-update-container{
+    text-align: center;
+    padding-top: 30px;
     
+    
+
+}.get-update-title{
+    margin-bottom: 15px;
+}.get-update-description{
+    margin-bottom: 35px;
+}.sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    height: 150px;
+    width: 60%;
+    border: 0;
+    border-radius: 5px;
+}.sub-container-content-email-form{
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px #656765 -10px -10px 15px #fff;
+
+} .sub-container-content-email-form .email{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    height: 50px;
+    color: cornflowerblue;
+    background-color: azure;
+}.sub-container-content-email-form .sub-btn{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
 }
-/* footer style */
+
+/* footer style */ 
 footer{
     background-color: black;
     width: auto;
-    height: 100px;
+    height: 250px;
     color: aliceblue;
+    
 
-}.footer-title{
+}.footer-div{
     text-align: center;
-}.footer-sub-title{
-    text-align: center;
-}.copyright{
-    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-
+.footer-title{
+    padding-top: 50px;
+    font-size: 45px;
+    font-family: cursive;
+    font-style: italic;
+   
+}.footer-sub-title{
+    padding-top: 40px;
+    
+}.copyright{
+    padding-top: 19px;
+}
 
 
 
